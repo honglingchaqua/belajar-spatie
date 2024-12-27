@@ -22,7 +22,7 @@ class UserSeeder extends Seeder
         $pelanggan = User::create([
         'name'=>'pelanggan',
         'email'=>'pelanggan@gmail.com',
-        'password'=>bcrypt('12345678')]);
+        'password'=>bcrypt('1234567S8')]);
         $pelanggan->assignRole('pelanggan');
     }
 }

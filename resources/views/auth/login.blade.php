@@ -26,8 +26,8 @@
                         </svg>  
                     </a>  
                     
-                    <h2 class="text-xl md:text-3xl font-bold text-white mt-4 md:mt-6">Secure Access</h2>  
-                    <p class="text-white/80 mt-2 md:mt-4 text-sm md:text-base">Protect your account with our advanced security measures</p>  
+                    <h2 class="text-xl md:text-3xl font-bold text-white mt-4 md:mt-6">Akses Keamanan </h2>  
+                    <p class="text-white/80 mt-2 md:mt-4 text-sm md:text-base">Melindui Akun Anda Dari Orang-Orang jahat</p>  
                 </div>  
             </div>  
 
@@ -38,8 +38,8 @@
                     <x-auth-session-status class="mb-4" :status="session('status')" />  
 
                     <div class="mb-4 md:mb-6">  
-                        <h1 class="text-2xl md:text-3xl font-bold text-gray-800">Welcome Back</h1>  
-                        <p class="text-gray-600 mt-1 md:mt-2 text-sm md:text-base">Please enter your credentials</p>  
+                        <h1 class="text-2xl md:text-3xl font-bold text-gray-800 text-center">Selamat Datang Kembali</h1>  
+                        <p class="text-gray-600 mt-1 md:mt-2 text-sm md:text-base"></p>  
                     </div>  
 
                     <form method="POST" action="{{ route('login') }}">  
@@ -107,10 +107,10 @@
 
                         <div class="mt-4 md:mt-6 text-center">  
                             <p class="text-xs md:text-sm text-gray-600">  
-                                Don't have an account?   
+                                Belum ada akun?    
                                 @if (Route::has('register'))  
                                     <a href="{{ route('register') }}" class="text-blue-500 hover:text-blue-700">  
-                                        Sign Up  
+                                        Daftar disini  
                                     </a>  
                                 @endif  
                             </p>  

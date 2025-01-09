@@ -3,7 +3,10 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h1 class="text-4xl font-extrabold text-gray-800 mb-4">
-                    Selamat Datang, {{ Auth::user()->name }}
+                    Selamat Datang, guys
+                    
+            {{-- {{ Auth::user()->name }} --}}
+
                 </h1>
                 <p class="text-xl text-gray-600">
                     Pilih Kategori Barang yang Ingin Anda Pesan

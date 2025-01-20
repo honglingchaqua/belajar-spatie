@@ -7,7 +7,7 @@
                 <div class="shrink-0 flex items-center">  
                     @auth  
                     @if(auth()->user()->hasRole('admin'))  
-                        <a href="{{ route('admin.dashboard') }}" class="flex items-center">  
+                        <a href="{{ route('boss.dashboard') }}" class="flex items-center">  
                             <img   
                             src="{{ asset('AGUNG TOYOTA JAMBI 2.png') }}"   
                             alt="Toyota Jambi Logo"   

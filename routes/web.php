@@ -30,8 +30,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
     });  
 
     // Admin routes  
-    Route::middleware(['role:admin'])->prefix('admin')->group(function () {  
-        Route::get('/dashboard', [BossController::class, 'index'])->name('admin.dashboard');  
+    Route::middleware(['role:admin'])->prefix('boss')->group(function () {  
+        Route::get('/dashboard', [BossController::class, 'index'])->name('boss.dashboard');  
         // Route admin lainnya di sini  
     });  
 

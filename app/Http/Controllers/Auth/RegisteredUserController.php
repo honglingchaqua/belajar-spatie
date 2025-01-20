@@ -41,6 +41,8 @@ class RegisteredUserController extends Controller
             'password' => Hash::make($request->password),
         ]);
 
+        $user -> assignroleto ('pelanggan');
+
         event(new Registered($user));
 
         Auth::login($user);

@@ -28,7 +28,7 @@
                 <div class="flex space-x-4 justify-center">  
                     @auth  
                         @if(auth()->user()->hasRole('admin'))  
-                            <a href="{{ route('admin.dashboard') }}" class="flex items-center bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition transform hover:scale-105 shadow-lg">  
+                            <a href="{{ route('boss.dashboard') }}" class="flex items-center bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition transform hover:scale-105 shadow-lg">  
                                 <i data-feather="home" class="mr-2"></i>  
                                 Kembali ke Dashboard Admin  
                             </a>  

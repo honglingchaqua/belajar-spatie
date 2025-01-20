@@ -15,7 +15,7 @@ class RedirectAuthenticated
             
             // Redirect berdasarkan role  
             if ($user->hasRole('admin')) {  
-                return redirect()->route('admin.dashboard');  
+                return redirect()->route('boss.dashboard');  
             }  
             
             if ($user->hasRole('pelanggan')) {  
